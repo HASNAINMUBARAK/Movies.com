@@ -6,7 +6,7 @@ const MovieCard = (props) => {
   const { data } = props;
   return (
     <div className={classes.contain}>
-      <h2 style={{ fontFamily: "cursive" }}>Movie List</h2>
+      <h2 style={{ fontFamily: "cursive" }}>Latest Movies</h2>
       <Link to={`/movie/${data.imdbID}`}>
         <img src={data.Poster} alt="image" className={classes.imge} />
       </Link>

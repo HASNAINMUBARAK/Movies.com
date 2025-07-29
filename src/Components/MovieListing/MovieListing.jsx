@@ -10,7 +10,7 @@ const MovieListing = () => {
 
   return (
     <div className={classes.outer}>
-      <h2 style={{ fontFamily: "cursive" }}>Movie List</h2>
+      <h2 style={{ fontFamily: "cursive" }}>Latest Movies</h2>
       <div className={classes.inner}>
         {movies.Search ? (
           movies.Search.map((movie, index) => {
