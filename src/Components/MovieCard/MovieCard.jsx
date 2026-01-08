@@ -7,7 +7,7 @@ const MovieCard = (props) => {
   return (
     <div className={classes.contain}>
       <Link to={`/movie/${data.imdbID}`}>
-        <img src={data.Poster} alt="image" className={classes.imge} />
+        <img src={data.Poster} alt="images" className={classes.imge} />
       </Link>
       <h3 style={{ fontFamily: "cursive", margin: 0 }}>
         {data.Title.substring(0, 25)}
